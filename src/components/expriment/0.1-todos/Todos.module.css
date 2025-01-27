@@ -1,0 +1,77 @@
+p {
+  color: #fff;
+}
+.warning {
+  color: #d30101;
+}
+.success {
+  color: #00cf00;
+}
+.container {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  text-align: right;
+  padding: 2rem 5rem;
+}
+.container form {
+  background-color: #292929;
+  padding: 2rem 2rem;
+  border-radius: 0.2rem;
+}
+.container form input {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+button[type="submit"] {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+/* Todos styles */
+.todos-container {
+  background-color: #292929;
+  color: #fff;
+  text-align: left;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.todo-wrapper {
+  border-bottom: 1px solid #3c3c3c;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  column-gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-wrapper h3 {
+  margin-bottom: 0.2rem;
+}
+.todo-wrapper p {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+.todo-wrapper .delete-todo {
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  color: #878787;
+}
+.todo-wrapper .delete-todo:hover {
+  color: #d30101;
+}

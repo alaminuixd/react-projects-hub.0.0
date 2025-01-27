@@ -35,7 +35,7 @@ const Accord = () => {
                 <div
                   className={`answer ${selected === dataItem.id ? "open" : ""}`}
                 >
-                  {selected === dataItem.id ? dataItem.answer : null}
+                  {selected === dataItem.id ? <p>{dataItem.answer}</p> : null}
                 </div>
               </div>
             );
